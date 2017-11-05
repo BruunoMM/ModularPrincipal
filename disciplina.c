@@ -328,7 +328,7 @@ DIS_tpCondRet DIS_get_creditos (Disciplina* dis, int *creditos)
       			return DIS_CondRetParametroInvalido;
 		}
 		dis->creditos=creditos;
-		return DIS_CondRetOK;	
+		return DIS_CondRetOK;
 	}
 	return DIS_CondRetErroEstrutura;
 }/* Fim função: DIS altera creditos */
